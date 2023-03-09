@@ -14,25 +14,19 @@ const Header = () => {
   ];
 
   const [nav, setNav] = useState(false);
-  const [navColor, setNavColor] = useState("white");
-  const [navTextColor, setNavTextColor] = useState("black");
-  const [navFix, setNavFix] = useState("inherit");
-  const [logoScrolled, setLogoScrolled] = useState("invert(0)");
+  const [navColor, setNavColor] = useState("#303841");
+  // const [navFix, setNavFix] = useState("inherit");
 
   const listenScrollEvent = () => {
     const headerScroll = document.querySelector(".header");
 
     if (window.scrollY > 10) {
-      setNavColor("#126E82");
-      setNavTextColor("white");
-      setNavFix("fixed");
-      setLogoScrolled("invert(1)");
+      setNavColor("#3A4750");
+      // setNavFix("fixed");
       headerScroll.classList.add("scroll");
     } else {
-      setNavColor("white");
-      setNavTextColor("black");
-      setNavFix("inherit");
-      setLogoScrolled("invert(0)");
+      setNavColor(navColor);
+      // setNavFix(navFix);
       headerScroll.classList.remove("scroll");
     }
   };
@@ -50,8 +44,8 @@ const Header = () => {
       style={{
         backgroundColor: navColor,
         transition: "all .3s",
-        position: navFix,
-        color: navTextColor,
+        position: "fixed",
+        color: "white",
       }}
     >
       {/* Medium to Larger Device */}
@@ -59,14 +53,16 @@ const Header = () => {
       <div className="flex justify-between items-center w-full mx-auto container">
         {/* Logo/Name */}
         <div className="logo h-[100%] cursor-pointer max-w-[7rem] ">
-          <img
-            src={Logo}
-            alt="RDA Logo"
-            className="header-logo"
-            style={{
-              filter: logoScrolled,
-            }}
-          />
+          <Link to={"/"}>
+            <img
+              src={Logo}
+              alt="RDA Logo"
+              className="header-logo"
+              style={{
+                filter: "invert(1)",
+              }}
+            />
+          </Link>
         </div>
         {/* Links */}
         <ul className="nav-links hidden md:flex">
@@ -87,11 +83,16 @@ const Header = () => {
 
       {/* Mobile menu -- Smaller Device */}
       <div
-        className="mobile-menu cursor-pointer md:hidden"
+        className="mobile-menu cursor-pointer z-20 md:hidden"
         onClick={() => setNav(!nav)}
       >
         {nav ? (
-          <CloseIcon size={25} color={nav ? "white" : "black"} />
+          <CloseIcon
+            size={25}
+            style={{
+              color: nav ? "white" : "black",
+            }}
+          />
         ) : (
           <MenuIcon size={25} />
         )}
@@ -99,7 +100,7 @@ const Header = () => {
 
       {/* Mobile menu link */}
       {nav && (
-        <ul className="w-full h-screen absolute top-0 left-0 bg-c-primary flex justify-center items-center flex-col menu-link">
+        <ul className="w-full h-screen absolute top-0 left-0 bg-c-primary flex justify-center items-center flex-col menu-link z-10 text-white">
           {navLinks.map(({ id, navLink, path }) => (
             <Link
               key={id}

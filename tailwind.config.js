@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "c-primary": "#132C33",
-        "c-secondary": "#126E82",
-        "c-tertiary": "#51C4D3",
-        "c-quarternary": "#D8E3E7",
+        "c-primary": "#303841",
+        "c-secondary": "#3A4750",
+        "c-tertiary": "#00ADB5",
+        "c-quarternary": "#EEEEEE",
       },
       fontFamily: {
         "f-primary": "'Montserrat', sans-serif",
