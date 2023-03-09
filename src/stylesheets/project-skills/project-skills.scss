@@ -1,2 +1,21 @@
 @import "../responsive";
 @import "../variables";
+
+// Skills
+.skills-card-wrapper {
+  h5 {
+    position: relative;
+    &::before {
+      position: absolute;
+      left: 50%;
+      bottom: -0.2rem;
+      transform: translate(-50%, 0%);
+      content: "";
+      background-color: $c-tertiary;
+      height: 0.1rem;
+      width: 2rem;
+    }
+  }
+}
+
+// Projects

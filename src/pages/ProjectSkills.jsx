@@ -1,24 +1,27 @@
 import Skills from "../components/Skills/Skills";
+import Projects from "../components/Projects/Projects";
 
 import "../stylesheets/project-skills/project-skills.scss";
 
 import { motion } from "framer-motion";
+import { skills, projects } from "../assets/data-projects-skills";
 
-const Projects = () => {
+const ProjectSkills = () => {
   return (
     <motion.div
-      className="h-screen flex items-center justify-around text-3xl bg-c-primary text-white"
+      className="flex items-center flex-col text-3xl text-white pt-[5rem]"
       initial={{ y: "100%" }}
       animate={{ y: "0" }}
       exit={{
-        y: window.innerWidth,
-        transition: { duration: 0.5, ease: "easeOut" },
+        y: "100%",
+        transition: { duration: 0.6, ease: "easeOut" },
       }}
     >
-      <Skills />
-      Projects
+      
+      <Skills skills={skills} />
+      <Projects projects={projects} />
     </motion.div>
   );
 };
 
-export default Projects;
+export default ProjectSkills;

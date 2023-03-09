@@ -21,7 +21,7 @@ const Header = () => {
     const headerScroll = document.querySelector(".header");
 
     if (window.scrollY > 10) {
-      setNavColor("#3A4750");
+      setNavColor("#00ADB5");
       // setNavFix("fixed");
       headerScroll.classList.add("scroll");
     } else {
@@ -40,7 +40,7 @@ const Header = () => {
 
   return (
     <div
-      className="flex justify-between items-center w-full h-20 px-4 z-30 header"
+      className="flex justify-between items-center w-full h-20 px-4 z-30 header shadow-sm shadow-black"
       style={{
         backgroundColor: navColor,
         transition: "all .3s",
