@@ -18,16 +18,12 @@ const Header = () => {
   // const [navFix, setNavFix] = useState("inherit");
 
   const listenScrollEvent = () => {
-    const headerScroll = document.querySelector(".header");
-
     if (window.scrollY > 10) {
       setNavColor("#00ADB5");
       // setNavFix("fixed");
-      headerScroll.classList.add("scroll");
     } else {
       setNavColor(navColor);
       // setNavFix(navFix);
-      headerScroll.classList.remove("scroll");
     }
   };
 
@@ -40,7 +36,7 @@ const Header = () => {
 
   return (
     <div
-      className="flex justify-between items-center w-full h-20 px-4 z-30 header shadow-sm shadow-black"
+      className="flex justify-between items-center w-full h-20 px-4 z-30 header "
       style={{
         backgroundColor: navColor,
         transition: "all .3s",

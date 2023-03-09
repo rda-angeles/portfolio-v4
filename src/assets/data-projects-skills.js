@@ -11,6 +11,10 @@ import Siroter from "./siroter-le-delicieux.png";
 import SiroterLogo from "./sld-cafe-logo-v1.png";
 import MovieZone from "./moviezone.png";
 import MovieZoneLogo from "./moviezonelogo.png";
+
+
+import CodeIcon from "@mui/icons-material/Code";
+import VideocamIcon from "@mui/icons-material/Videocam";
 // Skills
 export const skills = [
   {
@@ -96,5 +100,20 @@ export const projects = [
     projName: "Subic Ride",
     site: "https://www.youtube.com/embed/jgX7VyQq9UQ",
     category: "Video Edit",
+  },
+];
+
+export const services = [
+  {
+    id: 1,
+    service: "Web Development",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at ipsum rerum quaerat doloremque nulla, sapiente provident velit reiciendis corrupti.",
+    icon: <CodeIcon sx={{ fontSize: "4rem" }} />,
+  },
+  {
+    id: 2,
+    service: "Video Editing",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at ipsum rerum quaerat doloremque nulla, sapiente provident velit reiciendis corrupti.",
+    icon: <VideocamIcon sx={{ fontSize: "4rem" }} />,
   },
 ];

@@ -7,7 +7,7 @@ const ProjectLists = ({ items }) => {
       className={
         items.length === 1
           ? "flex items-center justify-around"
-          : "grid md:grid-cols-2 gap-5"
+          : "grid place-items-center md:grid-cols-2 gap-5"
       }
     >
       {items.map((item) => (
