@@ -99,7 +99,7 @@ const Contact = () => {
               />
               Phone:
             </span>
-            <a href="tel:+(63)977 1111 000"> (+63) 977 1111 000</a>
+            <a href="tel:+(+63)977 812 0096"> (+63)977 812 0096</a>
           </p>
 
           <p className="my-10 text-xl">
