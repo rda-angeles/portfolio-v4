@@ -30,11 +30,12 @@ const ProjectSkillsDetails = () => {
           {/* Left - Project Details */}
           <div className="project-detail order-2 flex items-center lg:ml-12  lg:order-1 lg:col-span-2">
             <div className="content text-center lg:text-left max-w-[35rem] lg:max-w-none text-white">
-              <h1 className="flex items-center text-center text-5xl mb-4 lg:text-6xl lg:text-left">
-                <div className="img-wrapper max-w-[8rem] mb-8">
-                  <img src={project.logo} alt="" />
-                </div>
+              <h1 className="flex items-center text-5xl mb-4 lg:text-6xl lg:text-left">
                 {project.projName}
+
+                <div className="img-wrapper max-w-[8rem] mb-8 ml-3">
+                  <img src={project.logo} alt={project.projName} />
+                </div>
               </h1>
 
               <p className="text-sm font-f-secondary leading-[1.5rem] text-justify px-5 lg:pr-5 lg:pl-0 lg:text-[.9rem]">
@@ -57,7 +58,12 @@ const ProjectSkillsDetails = () => {
           </div>
           {/* Right - Poster */}
           <div className="col-span-2">
-            <LazyLoadImage src={project.img} effect="blur" width="100%" />
+            <LazyLoadImage
+              src={project.img}
+              effect="blur"
+              width="100%"
+              className="rounded-xl "
+            />
           </div>
         </div>
       </div>

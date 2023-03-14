@@ -8,7 +8,7 @@ import "../../stylesheets/hero/about.scss";
 const About = () => {
   return (
     <div
-      className=" about-section px-4 py-[5rem] lg:px-0 bg-c-tertiary w-full"
+      className=" about-section px-4 py-[5rem] lg:px-0 bg-c-secondary w-full"
       id="about"
     >
       <div>
@@ -42,7 +42,7 @@ const About = () => {
               <Button
                 variant="outlined"
                 sx={{
-                  backgroundColor: "#3A4750",
+                  backgroundColor: "#00ADB5",
                   marginTop: "1rem",
                   color: "white",
                   border: "1px solid #3A4750",

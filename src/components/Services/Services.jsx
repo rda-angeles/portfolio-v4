@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 const Services = () => {
   return (
-    <motion.div className="bg-c-secondary w-full py-[5rem]" id="services">
+    <motion.div className=" w-full py-[5rem]" id="services">
       <div className="text-center max-w-2xl mx-auto ">
         <h1 className="uppercase mb-3 font-bold leading-[3.5rem]">
           What I can offer?

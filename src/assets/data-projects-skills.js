@@ -11,8 +11,11 @@ import Siroter from "./siroter-le-delicieux.png";
 import SiroterLogo from "./sld-cafe-logo-v1.png";
 import MovieZone from "./moviezone.png";
 import MovieZoneLogo from "./moviezonelogo.png";
-
-
+import HMILogo from "./hmi-logo.png";
+import HMIWebsite from "./hmi-website.png";
+import HMIPortal from "./hmi-portal.png";
+import SubicRide from "./subic-ride.png";
+import SampalocRide from "./sampaloc-ride.png";
 import CodeIcon from "@mui/icons-material/Code";
 import VideocamIcon from "@mui/icons-material/Videocam";
 // Skills
@@ -63,7 +66,7 @@ export const projects = [
   {
     id: 2,
     projName: "Siroter Le Délicieux Café",
-    site: "https://siroter-le-delicieux-cafe.web.app/",
+    site: "https://siroter-le-delicieux-cafe.vercel.app/",
     github: "https://github.com/rda-angeles/sld-cafe",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sapiente! Maiores eos, veniam saepe culpa quibusdam qui neque odit cumque atque, fugit autem fuga nihil quasi, ut laborum laboriosam ex accusamus facere sint. Itaque labore mollitia inventore minima exercitationem, impedit ut explicabo necessitatibus blanditiis odit corrupti quibusdam quaerat natus hic.",
     img: Siroter,
@@ -81,25 +84,41 @@ export const projects = [
     category: "React Js",
   },
 
-  // {
-  //   id: 2,
-  //   projName: "HMI Portal",
-  //   site: "https://pedal-deck.web.app/home",
-  //   github: "https://github.com/rda-angeles/pedal-deck",
-  //   img: "",
-  //   category: "Vue Js",
-  // },
   {
     id: 4,
+    projName: "Health Maintenance, Inc. Website",
+    site: "https://www.hmi.com.ph/",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sapiente! Maiores eos, veniam saepe culpa quibusdam qui neque odit cumque atque, fugit autem fuga nihil quasi, ut laborum laboriosam ex accusamus facere sint. Itaque labore mollitia inventore minima exercitationem, impedit ut explicabo necessitatibus blanditiis odit corrupti quibusdam quaerat natus hic.",
+    github: "https://github.com/rda-angeles/pedal-deck",
+    logo: HMILogo,
+    img: HMIWebsite,
+    category: "Vue Js",
+  },
+
+  {
+    id: 5,
+    projName: "Health Maintenance, Inc. Portal",
+    site: "https://portal.hmi.com.ph/",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sapiente! Maiores eos, veniam saepe culpa quibusdam qui neque odit cumque atque, fugit autem fuga nihil quasi, ut laborum laboriosam ex accusamus facere sint. Itaque labore mollitia inventore minima exercitationem, impedit ut explicabo necessitatibus blanditiis odit corrupti quibusdam quaerat natus hic.",
+    github: "https://github.com/rda-angeles/pedal-deck",
+    logo: HMILogo,
+    img: HMIPortal,
+    category: "Vue Js",
+  },
+
+  {
+    id: 6,
     projName: "Subic Ride 2022",
     site: "https://www.youtube.com/embed/7MMdJl_kZn8",
     category: "Video Edit",
+    img: SubicRide,
   },
   {
-    id: 5,
-    projName: "Subic Ride",
+    id: 7,
+    projName: "Sampaloc Ride",
     site: "https://www.youtube.com/embed/jgX7VyQq9UQ",
     category: "Video Edit",
+    img: SampalocRide,
   },
 ];
 

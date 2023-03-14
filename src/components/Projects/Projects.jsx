@@ -73,7 +73,7 @@ const Projects = ({ projects }) => {
 
       <div className="content-wrapper">
         {/* Button Wrapper */}
-        <div className="text-center mb-10 flex flex-wrap items-center justify-around gap-3 tab-btn-wrapper">
+        <div className="text-center mb-10 grid place-items-center md:grid-cols-3 gap-3 tab-btn-wrapper">
           {tabBtns.map((button) => (
             <button
               className={
