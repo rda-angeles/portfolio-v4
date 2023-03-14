@@ -1,3 +1,4 @@
+@import "./variables";
 .bg-img {
   background-size: cover;
   background-position: center;
@@ -18,4 +19,19 @@
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+.section-title {
+  h1 {
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 3rem;
+      height: 0.1rem;
+      content: "";
+      background-color: $c-tertiary;
+    }
+  }
 }

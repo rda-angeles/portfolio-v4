@@ -3,6 +3,9 @@ import MySelf from "../assets/Me.png";
 import { motion } from "framer-motion";
 import About from "../components/About/About";
 import Services from "../components/Services/Services";
+import Socials from "../components/UI/Socials";
+import Button from "@mui/material/Button";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const Hero = () => {
   return (
@@ -18,15 +21,30 @@ const Hero = () => {
       <div className="h-screen hero-section relative" id="hero">
         {/* Content Wrapper */}
         <div className="content-wrapper h-full">
-          <div className="content  flex items-center flex-col justify-center h-full w-full">
+          <div className="content  flex items-center flex-col justify-center h-full max-w-xl">
             <div className="text-center">
-              <h3 className="opacity-70 uppercase tracking-wider">
+              <h3 className="opacity-70 uppercase tracking-wider mb-[-1rem]">
                 Hello, My name is
               </h3>
-              <h1 className="text-5xl my-2 lg:text-7xl">Nikko Angeles</h1>
-              <p className="">I am a Frontend Developer.</p>
-
-              <div className="mt-5">{/* <Socials /> */}</div>
+              <h1 className="text-5xl my-2 lg:text-7xl text-c-tertiary font-bold">
+                Nikko Angeles
+              </h1>
+              <h4 className="text-lg">I am a Frontend Web Developer.</h4>
+              {/* <Button
+                variant="text"
+                sx={{
+                  color: "white",
+                  backgroundColor: "#3A4750",
+                }}
+              >
+                Lets Talk{" "}
+                <ArrowForwardIosIcon
+                  sx={{ fontSize: "1.2rem", marginLeft: ".3rem" }}
+                />
+              </Button> */}
+              <div className="mt-5">
+                <Socials />
+              </div>
             </div>
           </div>
         </div>

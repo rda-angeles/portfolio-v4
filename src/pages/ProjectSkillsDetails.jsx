@@ -30,7 +30,7 @@ const ProjectSkillsDetails = () => {
           {/* Left - Project Details */}
           <div className="project-detail order-2 flex items-center lg:ml-12  lg:order-1 lg:col-span-2">
             <div className="content text-center lg:text-left max-w-[35rem] lg:max-w-none text-white">
-              <h1 className="flex items-center text-5xl mb-4 lg:text-6xl lg:text-left">
+              <h1 className="flex items-center justify-around lg:justify-start text-5xl mb-4 lg:text-6xl lg:text-left">
                 {project.projName}
 
                 <div className="img-wrapper max-w-[8rem] mb-8 ml-3">
@@ -38,12 +38,12 @@ const ProjectSkillsDetails = () => {
                 </div>
               </h1>
 
-              <p className="text-sm font-f-secondary leading-[1.5rem] text-justify px-5 lg:pr-5 lg:pl-0 lg:text-[.9rem]">
+              <p className="text-md text-center font-f-secondary leading-[1.5rem] lg:text-justify px-5 lg:pr-5 lg:pl-0 lg:text-[1rem]">
                 {project.desc}
               </p>
 
               <a href={project.site} target="_blank">
-                <p className="mt-5 text-sm">
+                <p className="mt-5 mb-2 text-sm">
                   <span className="mr-1 font-bold text-lg">Site:</span>
                   {project.site}
                 </p>

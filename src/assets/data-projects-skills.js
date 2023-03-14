@@ -4,6 +4,7 @@ import NodeJsLogo from "./nodejs.png";
 import HTMLCssJsLogo from "./htmlcssjs.png";
 import ScssLogo from "./scss.png";
 import TailwindLogo from "./tailwind.png";
+import ReduxLogo from "./redux.png";
 
 import PedalDeck from "./pedal-deck.png";
 import PedalDeckLogo from "./pedal-deck-logo.png";
@@ -23,31 +24,43 @@ export const skills = [
   {
     id: 1,
     skill: "HTML, Css, JavaScript",
+    desc: "I can transform a website design into a working website from scratch with these skills. ",
     img: HTMLCssJsLogo,
   },
   {
     id: 2,
     skill: "Scss",
+    desc: "I can style a website using advanced version of CSS which provides more clean and manageable way of styling. ",
     img: ScssLogo,
   },
   {
     id: 3,
     skill: "Tailwind Css",
+    desc: "Styled a website using a utility class for quicker and maintainable application. ",
     img: TailwindLogo,
   },
   {
     id: 4,
     skill: "React Js",
+    desc: "Used a framework that lets you create interactive user interfaces quickly and easily, will help users use it with ease.  ",
     img: ReactJsLogo,
   },
   {
     id: 5,
-    skill: "Vue Js",
-    img: VueJsLogo,
+    skill: "Redux",
+    desc: "Used a state management tool for managing and updating an application state with events called 'actions'. ",
+    img: ReduxLogo,
   },
   {
     id: 6,
+    skill: "Vue Js",
+    desc: "Used a framework that lets you create interactive user interfaces quickly and easily, will help users use it with ease.  ",
+    img: VueJsLogo,
+  },
+  {
+    id: 7,
     skill: "Node Js",
+    desc: "Used a JavaScript runtime environment for server-side rendering or back-end application which can provide back-end API services. ",
     img: NodeJsLogo,
   },
 ];
@@ -58,7 +71,7 @@ export const projects = [
     projName: "Pedal Deck",
     site: "https://pedal-deck.web.app/home",
     github: "https://github.com/rda-angeles/pedal-deck",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sapiente! Maiores eos, veniam saepe culpa quibusdam qui neque odit cumque atque, fugit autem fuga nihil quasi, ut laborum laboriosam ex accusamus facere sint. Itaque labore mollitia inventore minima exercitationem, impedit ut explicabo necessitatibus blanditiis odit corrupti quibusdam quaerat natus hic.",
+    desc: "A frontend design of an e-commerce website that allows user to browse and buy a bicycle of their choice",
     img: PedalDeck,
     logo: PedalDeckLogo,
     category: "React Js",
@@ -68,7 +81,7 @@ export const projects = [
     projName: "Siroter Le Délicieux Café",
     site: "https://siroter-le-delicieux-cafe.vercel.app/",
     github: "https://github.com/rda-angeles/sld-cafe",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sapiente! Maiores eos, veniam saepe culpa quibusdam qui neque odit cumque atque, fugit autem fuga nihil quasi, ut laborum laboriosam ex accusamus facere sint. Itaque labore mollitia inventore minima exercitationem, impedit ut explicabo necessitatibus blanditiis odit corrupti quibusdam quaerat natus hic.",
+    desc: "A frontend design of a coffee shop website that allows users to determine its shop information as well as look into its different services and products that the shop offers.",
     img: Siroter,
     logo: SiroterLogo,
     category: "React Js",
@@ -78,7 +91,7 @@ export const projects = [
     projName: "Movie Zone",
     site: "https://movie-zone-nu.vercel.app/",
     github: "https://github.com/rda-angeles/sld-cafe",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sapiente! Maiores eos, veniam saepe culpa quibusdam qui neque odit cumque atque, fugit autem fuga nihil quasi, ut laborum laboriosam ex accusamus facere sint. Itaque labore mollitia inventore minima exercitationem, impedit ut explicabo necessitatibus blanditiis odit corrupti quibusdam quaerat natus hic.",
+    desc: "A very informative website that allows users to browse their favorite movies as well as look its movie information.",
     img: MovieZone,
     logo: MovieZoneLogo,
     category: "React Js",
@@ -88,8 +101,8 @@ export const projects = [
     id: 4,
     projName: "Health Maintenance, Inc. Website",
     site: "https://www.hmi.com.ph/",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sapiente! Maiores eos, veniam saepe culpa quibusdam qui neque odit cumque atque, fugit autem fuga nihil quasi, ut laborum laboriosam ex accusamus facere sint. Itaque labore mollitia inventore minima exercitationem, impedit ut explicabo necessitatibus blanditiis odit corrupti quibusdam quaerat natus hic.",
-    github: "https://github.com/rda-angeles/pedal-deck",
+    desc: "A company website that helps users know what the company is all about, who are the management team and its services. Also, the website allows users to search their affiliated facilities and physicians.",
+    github: "",
     logo: HMILogo,
     img: HMIWebsite,
     category: "Vue Js",
@@ -99,8 +112,8 @@ export const projects = [
     id: 5,
     projName: "Health Maintenance, Inc. Portal",
     site: "https://portal.hmi.com.ph/",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sapiente! Maiores eos, veniam saepe culpa quibusdam qui neque odit cumque atque, fugit autem fuga nihil quasi, ut laborum laboriosam ex accusamus facere sint. Itaque labore mollitia inventore minima exercitationem, impedit ut explicabo necessitatibus blanditiis odit corrupti quibusdam quaerat natus hic.",
-    github: "https://github.com/rda-angeles/pedal-deck",
+    desc: "A Progressive Web App that allows users to view utilities/transaction history from their previous activity. Users can also view their profile as well as their dependencies.",
+    github: "",
     logo: HMILogo,
     img: HMIPortal,
     category: "Vue Js",
@@ -126,13 +139,13 @@ export const services = [
   {
     id: 1,
     service: "Web Development",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at ipsum rerum quaerat doloremque nulla, sapiente provident velit reiciendis corrupti.",
+    desc: "I can create and develop a website that is also responsive so that users can use it with ease. ",
     icon: <CodeIcon sx={{ fontSize: "4rem" }} />,
   },
   {
     id: 2,
     service: "Video Editing",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at ipsum rerum quaerat doloremque nulla, sapiente provident velit reiciendis corrupti.",
+    desc: "organize raw footage, dialogue, sound effects, graphics, and special effects to create a finished film or video product",
     icon: <VideocamIcon sx={{ fontSize: "4rem" }} />,
   },
 ];

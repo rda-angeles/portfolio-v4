@@ -6,15 +6,13 @@ import { motion } from "framer-motion";
 const Services = () => {
   return (
     <motion.div className=" w-full py-[5rem]" id="services">
-      <div className="text-center max-w-2xl mx-auto ">
-        <h1 className="uppercase mb-3 font-bold leading-[3.5rem]">
+      <div className="text-center max-w-2xl mx-auto mb-10 section-title">
+        <h3 className="lowercase mb-[-.5rem] opacity-[.5]">
           What I can offer?
+        </h3>
+        <h1 className="uppercase mb-3 font-bold leading-[3.5rem] relative">
+          Services
         </h1>
-        <p className="mb-6 ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque beatae
-          autem quos nesciunt deleniti esse reiciendis repellat similique
-          aliquid distinctio?
-        </p>
       </div>
       <ServicesCard />
       <div className="text-center">

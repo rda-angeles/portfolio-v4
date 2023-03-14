@@ -60,15 +60,11 @@ const Projects = ({ projects }) => {
   return (
     <div className=" px-5 lg:px-10 py-[5rem] container mx-auto">
       {/* Section Title */}
-      <div className="text-center max-w-2xl mx-auto ">
-        <h1 className="uppercase mb-3 font-bold leading-[3.5rem]">
+      <div className="text-center max-w-2xl mx-auto mb-10 section-title">
+        <h3 className="lowercase mb-[-.5rem] opacity-[.5]">
           Want to see my Project?
-        </h1>
-        <p className="mb-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque beatae
-          autem quos nesciunt deleniti esse reiciendis repellat similique
-          aliquid distinctio?
-        </p>
+        </h3>
+        <h1 className="uppercase mb-3 font-bold leading-[3.5rem] relative">My works</h1>
       </div>
 
       <div className="content-wrapper">

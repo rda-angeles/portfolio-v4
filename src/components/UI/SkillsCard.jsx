@@ -2,7 +2,7 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
-const SkillsCard = ({ data: { skill, img } }) => {
+const SkillsCard = ({ data: { skill, img, desc } }) => {
   return (
     //Skill Card Wrapper
     <motion.div
@@ -21,10 +21,7 @@ const SkillsCard = ({ data: { skill, img } }) => {
             <span className="vertical-line"></span>
             {skill}
           </h5>
-          <p className="font-f-secondary ">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium, corrupti.
-          </p>
+          <p className="font-f-secondary ">{desc}</p>
         </div>
       </div>
     </motion.div>
