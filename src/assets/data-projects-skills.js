@@ -17,6 +17,8 @@ import HMIWebsite from "./hmi-website.png";
 import HMIPortal from "./hmi-portal.png";
 import SubicRide from "./subic-ride.png";
 import SampalocRide from "./sampaloc-ride.png";
+import LagunaLoopReverseRide from "./laguna_loop.jpg";
+
 import CodeIcon from "@mui/icons-material/Code";
 import VideocamIcon from "@mui/icons-material/Videocam";
 // Skills
@@ -132,6 +134,13 @@ export const projects = [
     site: "https://www.youtube.com/embed/jgX7VyQq9UQ",
     category: "Video Edit",
     img: SampalocRide,
+  },
+  {
+    id: 8,
+    projName: "Laguna Loop Ride (Reverse)",
+    site: "https://www.youtube.com/embed/PfJRr4bMJZM",
+    category: "Video Edit",
+    img: LagunaLoopReverseRide,
   },
 ];
 
