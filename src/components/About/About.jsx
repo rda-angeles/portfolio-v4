@@ -24,7 +24,7 @@ const About = () => {
               About me.
             </h1>
             <p className="text-sm leading-[1.5rem]">
-              I am a graduate of Computer Science with 3 years of experience
+              I am a graduate of Computer Science with 4 years of experience
               working as a Front-End Developer in the industry where I have
               gained and enhanced my skills in developing user interfaces,
               testing, debugging, and optimizing web functionalities.
