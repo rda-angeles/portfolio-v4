@@ -3,7 +3,7 @@ import Myself from "../../assets/myself.png";
 
 import DownloadIcon from "@mui/icons-material/Download";
 import Button from "@mui/material/Button";
-import CV from "../../assets/CV_Angeles_2023_updated.pdf";
+import CV from "../../assets/RDAAngelesCV2024.pdf";
 import "../../stylesheets/hero/about.scss";
 const About = () => {
   return (
