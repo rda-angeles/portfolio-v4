@@ -5,7 +5,7 @@ import { services } from "../../assets/data-projects-skills";
 const ServicesCard = () => {
   const [servicesItem, setServicesItem] = useState(services);
   return (
-    <div className="grid place-items-center lg:grid-cols-2 gap-9 max-w-4xl mx-auto">
+    <div className="grid place-items-center lg:grid-cols-1 gap-9 max-w-4xl mx-auto">
       {servicesItem.map((service) => (
         <div key={service.id}>
           <div className="card-content flex flex-col items-center text-center">

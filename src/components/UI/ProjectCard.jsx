@@ -7,7 +7,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
-import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
+import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 
 const ProjectCard = ({ item }) => {
   const [open, setOpen] = useState(false);
@@ -27,7 +27,8 @@ const ProjectCard = ({ item }) => {
 
   return (
     <div key={item.id} className="prod-card">
-      {item.category === "Video Edit" ? (
+      {/* 
+         {item.category === "Video Edit" ? (
         <>
           <Button onClick={handleOpen}>
             <div className="img-wrapper relative max-w-2xl">
@@ -72,7 +73,7 @@ const ProjectCard = ({ item }) => {
       ) : (
         <Link to={`/project-details/${item.id}`}>
           <motion.div className=" cursor-pointer" whileHover={{ y: -10 }}>
-            {/* Project Image */}
+         
             <div className="img-wrapper relative max-w-2xl">
               <LazyLoadImage
                 src={item.img}
@@ -83,6 +84,22 @@ const ProjectCard = ({ item }) => {
           </motion.div>
         </Link>
       )}
+      
+      
+      */}
+
+      <Link to={`/project-details/${item.id}`}>
+        <motion.div className=" cursor-pointer" whileHover={{ y: -10 }}>
+          {/* Project Image */}
+          <div className="img-wrapper relative max-w-2xl">
+            <LazyLoadImage
+              src={item.img}
+              effect="blur"
+              className="shadow-black shadow-sm"
+            />
+          </div>
+        </motion.div>
+      </Link>
     </div>
   );
 };

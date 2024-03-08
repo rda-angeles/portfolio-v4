@@ -102,6 +102,17 @@ export const projects = [
 
   {
     id: 4,
+    projName: "Netflix Clone",
+    site: "https://netflix-clone-chi-neon.vercel.app/",
+    github: "https://github.com/rda-angeles/netflix-clone",
+    desc: "A netflix clone web application where users can create an account, log in using their created account and saved movies/shows. Created account and saved movie/show is stored in Firebase",
+    img: NetflixCloneLogo,
+    logo: MovieZoneLogo,
+    category: "React Js",
+  },
+
+  {
+    id: 5,
     projName: "Health Maintenance, Inc. Website",
     site: "https://www.hmi.com.ph/",
     desc: "A company website that helps users know what the company is all about, who are the management team and its services. Also, the website allows users to search their affiliated facilities and physicians.",
@@ -112,7 +123,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     projName: "Health Maintenance, Inc. Portal",
     site: "https://portal.hmi.com.ph/",
     desc: "A Progressive Web App that allows users to view utilities/transaction history from their previous activity. Users can also view their profile as well as their dependencies.",
@@ -122,37 +133,27 @@ export const projects = [
     category: "Vue Js",
   },
 
-  {
-    id: 6,
-    projName: "Subic Ride 2022",
-    site: "https://www.youtube.com/embed/7MMdJl_kZn8",
-    category: "Video Edit",
-    img: SubicRide,
-  },
-  {
-    id: 7,
-    projName: "Sampaloc Ride",
-    site: "https://www.youtube.com/embed/jgX7VyQq9UQ",
-    category: "Video Edit",
-    img: SampalocRide,
-  },
-  {
-    id: 8,
-    projName: "Laguna Loop Ride (Reverse)",
-    site: "https://www.youtube.com/embed/PfJRr4bMJZM",
-    category: "Video Edit",
-    img: LagunaLoopReverseRide,
-  },
-  {
-    id: 9,
-    projName: "Netflix Clone",
-    site: "https://netflix-clone-chi-neon.vercel.app/",
-    github: "https://github.com/rda-angeles/netflix-clone",
-    desc: "A netflix clone web application where users can create an account, log in using their created account and saved movies/shows. Created account and saved movie/show is stored in Firebase",
-    img: NetflixCloneLogo,
-    logo: MovieZoneLogo,
-    category: "React Js",
-  },
+  // {
+  //   id: 6,
+  //   projName: "Subic Ride 2022",
+  //   site: "https://www.youtube.com/embed/7MMdJl_kZn8",
+  //   category: "Video Edit",
+  //   img: SubicRide,
+  // },
+  // {
+  //   id: 7,
+  //   projName: "Sampaloc Ride",
+  //   site: "https://www.youtube.com/embed/jgX7VyQq9UQ",
+  //   category: "Video Edit",
+  //   img: SampalocRide,
+  // },
+  // {
+  //   id: 8,
+  //   projName: "Laguna Loop Ride (Reverse)",
+  //   site: "https://www.youtube.com/embed/PfJRr4bMJZM",
+  //   category: "Video Edit",
+  //   img: LagunaLoopReverseRide,
+  // },
 ];
 
 export const services = [
@@ -162,10 +163,10 @@ export const services = [
     desc: "I can create and develop a website that is also responsive so that users can use it with ease. ",
     icon: <CodeIcon sx={{ fontSize: "4rem" }} />,
   },
-  {
-    id: 2,
-    service: "Video Editing",
-    desc: "organize raw footage, dialogue, sound effects, graphics, and special effects to create a finished film or video product",
-    icon: <VideocamIcon sx={{ fontSize: "4rem" }} />,
-  },
+  // {
+  //   id: 2,
+  //   service: "Video Editing",
+  //   desc: "organize raw footage, dialogue, sound effects, graphics, and special effects to create a finished film or video product",
+  //   icon: <VideocamIcon sx={{ fontSize: "4rem" }} />,
+  // },
 ];
