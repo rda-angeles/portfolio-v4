@@ -18,6 +18,7 @@ import HMIPortal from "./hmi-portal.png";
 import SubicRide from "./subic-ride.png";
 import SampalocRide from "./sampaloc-ride.png";
 import LagunaLoopReverseRide from "./laguna_loop.jpg";
+import NetflixCloneLogo from "./netflix-clone.png";
 
 import CodeIcon from "@mui/icons-material/Code";
 import VideocamIcon from "@mui/icons-material/Videocam";
@@ -148,7 +149,7 @@ export const projects = [
     site: "https://netflix-clone-chi-neon.vercel.app/",
     github: "https://github.com/rda-angeles/netflix-clone",
     desc: "A netflix clone web application where users can create an account, log in using their created account and saved movies/shows. Created account and saved movie/show is stored in Firebase",
-    img: MovieZone,
+    img: NetflixCloneLogo,
     logo: MovieZoneLogo,
     category: "React Js",
   },
