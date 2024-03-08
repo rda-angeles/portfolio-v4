@@ -142,6 +142,16 @@ export const projects = [
     category: "Video Edit",
     img: LagunaLoopReverseRide,
   },
+  {
+    id: 9,
+    projName: "Netflix Clone",
+    site: "https://netflix-clone-chi-neon.vercel.app/",
+    github: "https://github.com/rda-angeles/netflix-clone",
+    desc: "A netflix clone web application where users can create an account, log in using their created account and saved movies/shows. Created account and saved movie/show is stored in Firebase",
+    img: MovieZone,
+    logo: MovieZoneLogo,
+    category: "React Js",
+  },
 ];
 
 export const services = [
