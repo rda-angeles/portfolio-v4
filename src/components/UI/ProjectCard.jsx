@@ -1,32 +1,31 @@
 import { Link } from "react-router-dom";
-import { motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { useState } from "react";
 
 import "react-lazy-load-image-component/src/effects/blur.css";
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Modal from "@mui/material/Modal";
-import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
+// import Box from "@mui/material/Box";
+// import Button from "@mui/material/Button";
+// import Modal from "@mui/material/Modal";
+// import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 
 const ProjectCard = ({ item }) => {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  // const [open, setOpen] = useState(false);
+  // const handleOpen = () => setOpen(true);
+  // const handleClose = () => setOpen(false);
 
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: "40rem",
-    bgcolor: "#303841",
-    boxShadow: 24,
-    p: 4,
-  };
+  // const style = {
+  //   position: "absolute",
+  //   top: "50%",
+  //   left: "50%",
+  //   transform: "translate(-50%, -50%)",
+  //   width: "40rem",
+  //   bgcolor: "#303841",
+  //   boxShadow: 24,
+  //   p: 4,
+  // };
 
   return (
-    <div key={item.id} className="prod-card">
+    <div key={item} className="prod-card">
       {/* 
          {item.category === "Video Edit" ? (
         <>

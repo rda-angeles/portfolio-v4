@@ -7,9 +7,10 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import ContactImg from "../assets/contact.jpg";
-import Socials from "../components/UI/Socials";
+// import Socials from "../components/UI/Socials";
 
 const Contact = () => {
   const socials = [
@@ -99,12 +100,12 @@ const Contact = () => {
               />
               Phone:
             </span>
-            <a href="tel:+(+63)977 812 0096"> (+63)977 812 0096</a>
+            <a href="tel:+(+63)977 812 0096"> (+63) 977 812 0096</a>
           </p>
 
           <p className="my-10 text-xl">
             <span className="font-f-secondary font-bold mr-1 flex-initial items-center">
-              <LocalPhoneIcon
+              <EmailIcon
                 sx={{
                   fontSize: "1.5rem",
                   marginRight: ".2rem",
@@ -127,6 +128,7 @@ const Contact = () => {
               <a
                 href={social.path}
                 target="_blank"
+                rel="noreferrer"
                 className="font-f-secondary text-[1rem]"
               >
                 {social.path}

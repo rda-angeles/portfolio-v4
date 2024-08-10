@@ -25,7 +25,7 @@ const Socials = () => {
     <div className="grid grid-cols-3 place-items-center max-w-[10rem] mx-auto">
       {socials.map((social) => (
         <motion.div whileHover={{ scale: 1.2 }} key={social.id}>
-          <a href={social.path} target="_blank">
+          <a href={social.path} target="_blank" rel="noreferrer">
             {social.icon}
           </a>
         </motion.div>

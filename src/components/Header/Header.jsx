@@ -17,6 +17,15 @@ const Header = () => {
   const [navColor, setNavColor] = useState("#303841");
   // const [navFix, setNavFix] = useState("inherit");
 
+  // const listenScrollEvent = useCallback(() => {
+  //   if (window.scrollY > 10) {
+  //     setNavColor("#00ADB5");
+  //     // setNavFix("fixed");
+  //   } else {
+  //     setNavColor(navColor);
+  //     // setNavFix(navFix);
+  //   }
+  // }, [navColor]);
   const listenScrollEvent = () => {
     if (window.scrollY > 10) {
       setNavColor("#00ADB5");

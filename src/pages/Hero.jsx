@@ -1,11 +1,11 @@
 import "../stylesheets/hero/hero.scss";
-import MySelf from "../assets/Me.png";
 import { motion } from "framer-motion";
 import About from "../components/About/About";
-import Services from "../components/Services/Services";
 import Socials from "../components/UI/Socials";
-import Button from "@mui/material/Button";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+// import MySelf from "../assets/Me.png";
+// import Services from "../components/Services/Services";
+// import Button from "@mui/material/Button";
+// import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const Hero = () => {
   return (
@@ -51,7 +51,7 @@ const Hero = () => {
       </div>
 
       <About />
-      <Services />
+      {/* <Services /> */}
     </motion.div>
   );
 };

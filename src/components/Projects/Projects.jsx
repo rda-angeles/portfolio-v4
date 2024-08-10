@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 import ProjectLists from "../../components/UI/ProjectLists";
 
 const Projects = ({ projects }) => {
@@ -19,7 +17,6 @@ const Projects = ({ projects }) => {
   // ];
 
   // const [tabActive, setTabActive] = useState(tabBtns[0].btnName);
-  const [items, setItems] = useState(projects);
 
   // const activeTab = (btnName) => {
   //   setTabActive(btnName);
@@ -91,7 +88,7 @@ const Projects = ({ projects }) => {
 
         {/* Projects Wrapper */}
         <div>
-          <ProjectLists items={items} />
+          <ProjectLists items={projects} />
         </div>
       </div>
     </div>

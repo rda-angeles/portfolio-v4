@@ -1,10 +1,12 @@
 import ReactJsLogo from "./reactjs.png";
+import NextJsLogo from "./next-js.svg";
 import VueJsLogo from "./vuejs.png";
 import NodeJsLogo from "./nodejs.png";
 import HTMLCssJsLogo from "./htmlcssjs.png";
 import ScssLogo from "./scss.png";
 import TailwindLogo from "./tailwind.png";
 import ReduxLogo from "./redux.png";
+import TypescriptLogo from "./typescript.svg";
 
 import PedalDeck from "./pedal-deck.png";
 import PedalDeckLogo from "./pedal-deck-logo.png";
@@ -15,53 +17,66 @@ import MovieZoneLogo from "./moviezonelogo.png";
 import HMILogo from "./hmi-logo.png";
 import HMIWebsite from "./hmi-website.png";
 import HMIPortal from "./hmi-portal.png";
-import SubicRide from "./subic-ride.png";
-import SampalocRide from "./sampaloc-ride.png";
-import LagunaLoopReverseRide from "./laguna_loop.jpg";
 import NetflixCloneLogo from "./netflix-clone.png";
 
 import CodeIcon from "@mui/icons-material/Code";
-import VideocamIcon from "@mui/icons-material/Videocam";
+// import SubicRide from "./subic-ride.png";
+// import SampalocRide from "./sampaloc-ride.png";
+// import LagunaLoopReverseRide from "./laguna_loop.jpg";
+
+// import VideocamIcon from "@mui/icons-material/Videocam";
 // Skills
 export const skills = [
   {
     id: 1,
     skill: "HTML, Css, JavaScript",
-    desc: "I can transform a website design into a working website from scratch with these skills. ",
+    desc: "I can transform a website design into a working website from scratch with these skills.",
     img: HTMLCssJsLogo,
   },
   {
     id: 2,
-    skill: "Scss",
-    desc: "I can style a website using advanced version of CSS which provides more clean and manageable way of styling. ",
-    img: ScssLogo,
+    skill: "Typescript",
+    desc: "Used typed programming language for specifying types of data to make code refactoring much faster and efficient.",
+    img: TypescriptLogo,
   },
   {
     id: 3,
-    skill: "Tailwind Css",
-    desc: "Styled a website using a utility class for quicker and maintainable application. ",
-    img: TailwindLogo,
+    skill: "Scss",
+    desc: "I can style a website using advanced version of CSS which provides more clean and manageable way of styling.",
+    img: ScssLogo,
   },
   {
     id: 4,
-    skill: "React Js",
-    desc: "Used a framework that lets you create interactive user interfaces quickly and easily, will help users use it with ease.  ",
-    img: ReactJsLogo,
+    skill: "Tailwind Css",
+    desc: "Styled a website using a utility class for quicker and maintainable application.",
+    img: TailwindLogo,
   },
   {
     id: 5,
+    skill: "React Js",
+    desc: "Used a javascript library that lets you create interactive user interfaces quickly and easily, will help users use it with ease. ",
+    img: ReactJsLogo,
+  },
+  {
+    id: 6,
+    skill: "Next Js",
+    desc: "Used a javascript framework built on top of React that help creates user interfaces with the use of React components plus additional features and optimizations.",
+    img: NextJsLogo,
+  },
+  {
+    id: 7,
     skill: "Redux",
     desc: "Used a state management tool for managing and updating an application state with events called 'actions'. ",
     img: ReduxLogo,
   },
   {
-    id: 6,
+    id: 8,
     skill: "Vue Js",
-    desc: "Used a framework that lets you create interactive user interfaces quickly and easily, will help users use it with ease.  ",
+    desc: "Used a javascript library that lets you create interactive user interfaces quickly and easily, will help users use it with ease.  ",
     img: VueJsLogo,
   },
   {
-    id: 7,
+    id: 9,
     skill: "Node Js",
     desc: "Used a JavaScript runtime environment for server-side rendering or back-end application which can provide back-end API services. ",
     img: NodeJsLogo,

@@ -42,13 +42,13 @@ const ProjectSkillsDetails = () => {
                 {project.desc}
               </p>
 
-              <a href={project.site} target="_blank">
+              <a href={project.site} target="_blank" rel="noreferrer">
                 <p className="mt-5 mb-2 text-sm">
                   <span className="mr-1 font-bold text-lg">Site:</span>
                   {project.site}
                 </p>
               </a>
-              <a href={project.github} target="_blank">
+              <a href={project.github} target="_blank" rel="noreferrer">
                 <p className="text-sm">
                   <span className="mr-1 font-bold text-lg ">Github:</span>
                   {project.github}
